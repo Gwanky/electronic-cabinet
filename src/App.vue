@@ -1,7 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+</script>
 
 <template>
-  <van-nav-bar title="电子药箱" />
+  <RouterView />
 </template>
 
 <style scoped>
